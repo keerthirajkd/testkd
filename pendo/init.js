@@ -13,8 +13,8 @@
         pendo.initialize({
             visitor: {
                 id:           'IT_Keerthiraj12345',
-                email:        "darshan.hulswar@softland.com",
-                full_name:    "Darshan Hulswar"
+                email:        "keerthi12345@testit.com",
+                full_name:    "Keerthiraj"
             },
 
             account: {

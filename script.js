@@ -7,6 +7,8 @@ function toggle() {
   if (active) {
     toggle.classList.add("active");
     text.innerHTML = "ON";
+    guide.hide({stayHidden: true});
+
     console.log("Pendo Track Event Called with status 'ON'")
     
   } else {

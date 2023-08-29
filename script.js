@@ -25,7 +25,13 @@ function toggle() {
     console.log("Pendo Track Event Called with status 'OFF'")
   }
 }
-
+if(toggleState: "OFF"){
+  pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
+  console.log("Toggle is ON")
+}
+else{
+  console.log("toggle is ON")
+}
 
 $('#exampleModal').on('shown.bs.modal', function () {
   // $('#myInput').trigger('focus')

@@ -25,9 +25,10 @@ function toggle() {
     console.log("Pendo Track Event Called with status 'OFF'")
   }
 }*/
+    let toggleState="OFF";
 if(toggleState == "OFF"){
   pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
-  console.log("Toggle is ON")
+  console.log("Toggle is OFF")
 }
 else{
   console.log("toggle is ON")

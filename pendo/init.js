@@ -12,14 +12,14 @@
 
         pendo.initialize({
             visitor: {
-                id:           'SOFTLAND_VISITOR_DARSHAN',
+                id:           'IT_Keerthiraj12345',
                 email:        "darshan.hulswar@softland.com",
                 full_name:    "Darshan Hulswar"
             },
 
             account: {
-                id:           'SOFTLAND_ACCOUNT_1',
-                name:         "SOFTLAND_ACCOUNT",
+                id:           'IT_Keerthiraj_1',
+                name:         "IT_Keerthiraj",
                 creationDate: new Date().toISOString().slice(0, 10)
             }
         });

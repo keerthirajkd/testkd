@@ -8,24 +8,24 @@ function toggle() {
     toggle.classList.add("active");
     text.innerHTML = "ON";
 
-    pendo.track("TOGGLE_STATUS", {
-      toggleState: "ON"
-    });
+/* pendo.track("TOGGLE_STATUS", {
+ toggleState: "ON"
+ });
 
-    console.log("Pendo Track Event Called with status 'ON'")
+ console.log("Pendo Track Event Called with status 'ON'")
     
-  } else {
-    toggle.classList.remove("active");
-    text.innerHTML = "OFF";
+ } else {
+ toggle.classList.remove("active");
+ text.innerHTML = "OFF";
 
-     pendo.track("TOGGLE_STATUS", {
-      toggleState: "OFF"
+  pendo.track("TOGGLE_STATUS", {
+    toggleState: "OFF"
     });
 
     console.log("Pendo Track Event Called with status 'OFF'")
   }
-}
-if(toggleState: "OFF"){
+}*/
+if(toggleState == "OFF"){
   pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
   console.log("Toggle is ON")
 }

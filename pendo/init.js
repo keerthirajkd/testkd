@@ -11,13 +11,13 @@
         // Please use Strings, Numbers, or Bools for value types.
 
         pendo.initialize({
-            visitor: {
+             {
                 id:           'IT_Keerthiraj12345',
                 email:        "keerthi12345@testit.com",
                 full_name:    "Keerthiraj"
             },
 
-            account: {
+            {
                 id:           'IT_Keerthiraj_1',
                 name:         "IT_Keerthiraj",
                 creationDate: new Date().toISOString().slice(0, 10)

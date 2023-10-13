@@ -1,10 +1,13 @@
-if (screen.width > 960) {
+setTimeout(() => {
+    
+    if (screen.width > 960) {
     pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6')
 }
 else {
 
     alert('More than 960');
 }
+    }, 3000);
 //let active = false;
 
 // function toggle() {

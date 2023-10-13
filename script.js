@@ -1,7 +1,7 @@
 setTimeout(() => {
     
     if (screen.width > 960) {
-    pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6')
+    pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6-Rhgww')
 }
 else {
 

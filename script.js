@@ -92,7 +92,7 @@ function show(){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    
-  }else{
+  else{
       keerthiraj.style.display = 'block';
   }
 

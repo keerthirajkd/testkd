@@ -89,7 +89,7 @@ function show(){
         mangalore.style.display = 'none';
       }
       else if(h>=17){
-          //pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6-Rhgww')
+          pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6-Rhgww')
 
         keerthiraj.style.display = 'none';
         pendo.style.display = 'block';

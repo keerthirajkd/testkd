@@ -99,8 +99,4 @@ function show(){
       siang.style.display = 'none';
   }
 }
-<p id="keerthiraj" style="background-color:magenta; display:none"> malam </p>
-<p id="pendo" style="background-color:cyan; display:none"> pagi </p>
-<p id="mangalore" style="background-color:orange; display:none"> siang </p>
 
-<button onclick='show()'>test</button>

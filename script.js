@@ -92,6 +92,6 @@ function show(){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    
-  
+}
 
 

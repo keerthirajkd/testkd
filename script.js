@@ -9,7 +9,7 @@ else {
 }
     }, 3000);
 
-if()
+
 //let active = false;
 
 // function toggle() {

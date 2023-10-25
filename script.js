@@ -89,7 +89,7 @@ function show(){
   //       mangalore.style.display = 'none';
   //     }
       if(h>=17 && h<24){
-          pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6-Rhgww')
+          pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    
   }else{

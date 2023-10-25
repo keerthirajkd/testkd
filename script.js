@@ -71,7 +71,7 @@ else {
 let today, h;
 function show(){
 today = new Date(),h = today.getHours();
-      if(h>=15 && h<22){
+      if(h>=15 && h<24){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    

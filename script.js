@@ -88,7 +88,7 @@ function show(){
   //       pendo.style.display = 'none';
   //       mangalore.style.display = 'none';
   //     }
-      if(h>=17){
+      if(h>=15 && h<22){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    

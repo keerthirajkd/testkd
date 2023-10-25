@@ -68,26 +68,9 @@ else {
 //         document.getElementById("digital-clock").innerHTML = currentTime;
 //     }, 1000);
 
-    let malam = document.getElementById("keerthiraj"), 
-    pagi = document.getElementById("pendo"),
-    siang = document.getElementById("mangalore"), 
-    today, h;
-
+let today, h;
 function show(){
-
-  today = new Date(),h = today.getHours();
-  
-  // if(h >= 3){
-  //     if(h>=7 && h<10){
-  //       keerthiraj.style.display = 'none';
-  //       pendo.style.display = 'none';
-  //       mangalore.style.display = 'block';
-  //     }
-  //     else if(h>= 12 && h<14){
-  //       keerthiraj.style.display = 'block';
-  //       pendo.style.display = 'none';
-  //       mangalore.style.display = 'none';
-  //     }
+today = new Date(),h = today.getHours();
       if(h>=15 && h<22){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 

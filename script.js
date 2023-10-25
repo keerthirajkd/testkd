@@ -77,28 +77,23 @@ function show(){
 
   today = new Date(),h = today.getHours();
   
-  if(h >= 3){
-      if(h>=7 && h<10){
-        keerthiraj.style.display = 'none';
-        pendo.style.display = 'none';
-        mangalore.style.display = 'block';
-      }
-      else if(h>= 12 && h<14){
-        keerthiraj.style.display = 'block';
-        pendo.style.display = 'none';
-        mangalore.style.display = 'none';
-      }
-      else if(h>=17){
+  // if(h >= 3){
+  //     if(h>=7 && h<10){
+  //       keerthiraj.style.display = 'none';
+  //       pendo.style.display = 'none';
+  //       mangalore.style.display = 'block';
+  //     }
+  //     else if(h>= 12 && h<14){
+  //       keerthiraj.style.display = 'block';
+  //       pendo.style.display = 'none';
+  //       mangalore.style.display = 'none';
+  //     }
+      if(h>=17 && h<24){
           pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6-Rhgww')
 
-        keerthiraj.style.display = 'none';
-        pendo.style.display = 'block';
-        mangalore.style.display = 'none';
       }    
   }else{
-      malam.style.display = 'none';
-      pagi.style.display = 'block';
-      siang.style.display = 'none';
+      keerthiraj.style.display = 'block';
   }
 }
 

@@ -88,12 +88,10 @@ function show(){
   //       pendo.style.display = 'none';
   //       mangalore.style.display = 'none';
   //     }
-      if(h>=17 && h<24){
+      if(h>=17){
           pendo.showGuideById('s3HvZVlDql5rUXOdgjBaAobarXw')
 
       }    
-  else{
-      keerthiraj.style.display = 'block';
-  }
+  
 
 

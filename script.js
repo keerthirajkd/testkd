@@ -26,7 +26,7 @@ function toggle() {
   } else {
     toggle.classList.remove("active");
     text.innerHTML = "OFF";
-pendo.showGuideById('RxYqXOlTbOSfYtvUDRiL6')
+pendo.showGuideById('A5P1IbQJ91lcT7ytAv2AJSAMNrM')
     console.log("Pendo Track Event Called with status 'OFF'")
   }
 }

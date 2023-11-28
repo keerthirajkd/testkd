@@ -27,7 +27,9 @@ function toggle() {
     toggle.classList.remove("active");
     text.innerHTML = "OFF";
 pendo.showGuideById('A5P1IbQJ91lcT7ytAv2AJSAMNrM')
-	  
+	  pendo.track("Toggle", {
+		  Type: "Changed status"
+	  });
            
             
     console.log("Pendo Track Event Called with status 'OFF'")

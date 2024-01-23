@@ -20,6 +20,7 @@
           account:  {
                 id:           'IT_Keerthiraj_1',
                 name:         "IT_Keerthiraj",
+                userLang = navigator.language || navigator.userLanguage,
                 Today: new Date().toJSON().slice(0,10).replace(/-/g,'/')
             }
         });

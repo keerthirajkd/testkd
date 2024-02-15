@@ -20,6 +20,27 @@
             });
             alert("Destroyed");
           }
+
+	       let active = false;
+
+function toggle() {
+  let toggle = document.querySelector(".toggle");
+  let text = document.querySelector(".text");
+  active = !active;
+  if (active) {
+    toggle.classList.add("active");
+    text.innerHTML = "ON";
+    
+  } else {
+    toggle.classList.remove("active");
+    text.innerHTML = "OFF";
+/*pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
+	  pendo.track("Toggle", {
+/*		  Type: "Changed status"
+	  });*/
+  }
+}
+	       
        </script>
 
     <link rel="stylesheet" href="style.css" />

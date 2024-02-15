@@ -23,7 +23,7 @@ function toggle() {
   } else {
     toggle.classList.remove("active");
     text.innerHTML = "OFF";
-pendo.showGuideById('A5P1IbQJ91lcT7ytAv2AJSAMNrM')
+pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
 	  pendo.track("Toggle", {
 		  Type: "Changed status"
 	  });

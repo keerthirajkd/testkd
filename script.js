@@ -23,13 +23,10 @@ function toggle() {
   } else {
     toggle.classList.remove("active");
     text.innerHTML = "OFF";
-pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
+/*pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
 	  pendo.track("Toggle", {
-		  Type: "Changed status"
-	  });
-           
-            
-    console.log("Pendo Track Event Called with status 'OFF'")
+/*		  Type: "Changed status"
+	  });*/
   }
 }
 

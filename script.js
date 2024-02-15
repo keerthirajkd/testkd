@@ -10,7 +10,7 @@
 //     }, 3000);
 
 
-let active = false;
+/*let active = false;
 
 function toggle() {
   let toggle = document.querySelector(".toggle");
@@ -28,7 +28,7 @@ function toggle() {
 /*		  Type: "Changed status"
 	  });*/
   }
-}
+}*/
 
 
 //$('#exampleModal').on('shown.bs.modal', function () {

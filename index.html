@@ -223,6 +223,15 @@ pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
   </br>
 	  
   </br>
+	  <section>
+  <form action="#" onsubmit="myFunction()">
+  <label for="fname">Fname:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Lname:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="New Submit" onclick="click_function()">
+</form> 
+</section>
     
     <p id="keerthiraj" style="background-color:magenta; display:none"> malam </p>
 <p id="pendo" style="background-color:cyan; display:none"> pagi </p>
@@ -251,5 +260,20 @@ pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+		  <script>
+          function myFunction(){
+                      pendo.track("Enter_Button", {
+                            name: "submit"
+            });
+            alert("Destroyed");
+          }
+
+          function click_function(){
+                      pendo.track("Enter_Button", {
+                             name: "submit"
+            });
+            alert("Destroyed");
+}
+</script>
   </body>
 </html>

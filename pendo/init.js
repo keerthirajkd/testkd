@@ -17,6 +17,7 @@
                 full_name:    "Keerthiraj",
                 width: JSON.stringify(window.innerWidth),
                 height:JSON.stringify(window.innerHeight)
+                userAgent: navigator.userAgent
             },
 
           account:  {

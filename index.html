@@ -47,7 +47,7 @@ pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
 	  }
 /*KeyPress*/
 
-	       document.addEventListener("keypress", function(event) {
+	      /* document.addEventListener("keypress", function(event) {
         if (event.keyCode == 13) {
             alert('You just hit enter.');
         }else if(event.keyCode ==65){
@@ -57,7 +57,12 @@ pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
         }else{
           alert('You press something other than A, a and ENTER key');
             }
-    })
+    })*/
+	       window.onkeypress = function(event) {
+   if (event.keyCode == 81) {
+   alert("This is a test.")
+   }
+}
 
 	       
        </script>

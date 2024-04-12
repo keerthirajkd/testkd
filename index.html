@@ -45,6 +45,21 @@ pendo.showGuideById('-uqTaMGPpQsNoTIF1eM77TSuoJ4')
 	 pendo.showGuideById('xajhdbCgoq7m6PXkqBth_fvboqE');
 	  }
 	  }
+/*KeyPress*/
+
+	       document.addEventListener("keypress", function(event) {
+        if (event.keyCode == 13) {
+            alert('You just hit enter.');
+        }else if(event.keyCode ==65){
+          alert('You just press A.');
+        }else if(event.keyCode==97){
+          alert('You just hit a.');
+        }else{
+          alert('You press something other than A, a and ENTER key');
+            }
+    })
+
+	       
        </script>
 
     <link rel="stylesheet" href="style.css" />

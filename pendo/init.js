@@ -16,6 +16,7 @@
                 email:        "keerthi12345@testit.com",
                 full_name:    "Keerthiraj",
                 width: JSON.stringify(window.innerWidth),
+                IP: json.ip,
                 height:JSON.stringify(window.innerHeight),
                 userAgent: navigator.userAgent
             },

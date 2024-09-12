@@ -31,10 +31,10 @@
 
 })('6be71c61-78d6-4429-6818-fb14186f4821');
 
-<!--Drift-->
 
-<!-- Start of Async Drift Code -->
-<script>
+
+
+
 "use strict";
 
 !function() {
@@ -59,5 +59,4 @@
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('t6xdtpu7abv7');
-</script>
-<!-- End of Async Drift Code -->
+

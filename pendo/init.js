@@ -15,7 +15,7 @@
                 id:           'IT_Keerthiraj12345',
                 email:        "keerthi12345@testit.com",
                 full_name:    "Keerthiraj",
-                width: JSON.stringify(window.innerWidth),
+                //width: JSON.stringify(window.innerWidth),
                 height:JSON.stringify(window.innerHeight),
                 IP: JSON.ip,
                 userAgent: navigator.userAgent

@@ -104,7 +104,59 @@ $(function() {
 
 	var accordion = new Accordion($('#accordion'), false);
 });
+var elements = document.getElementsByClassName("item");
+var subElements = document.getElementsByClassName("sub");
+var arrLi1 = ['Dato 1 sub 1', 'Dato 2 sub 1', 'dato 3 sub 1'];
+var arrLi2 = ['Dato 1 sub 2', 'Dato 2 sub 2', 'dato 3 sub 2', 'dato 4 sub 2'];
 
+let creaLi = function(itemClass, arr){
+  let newUL =document.createElement('UL');
+  newUL.className = 'sub';
+  for (let i = 0; i < arr.length; i++){
+    let newLi = document.createElement('li');
+    newLi.innerHTML = arr[i];
+    newUL.appendChild(newLi);
+    itemClass.appendChild(newUL);
+  };
+  itemClass.getElementsByClassName("sub")[0].addEventListener("mouseleave", function(event){
+    //-- soluzione 1 (senza il parametro 'event' nella function)
+    // console.log(elements[index].getElementsByClassName("sub").length);
+    // elements[index].getElementsByClassName("sub")[0].remove();
+    // -- soluzione 2, più efficace
+    event.target.remove();
+  });
+};
+
+let creaSub = function(index) {
+  elements[index].addEventListener("mouseover", function() {
+     // alert("Clicked index: " + index);
+  if (!this.getElementsByClassName("sub").length > 0) {
+      toglisub('sub');
+      switch(index){
+        case 0: //link a Home
+          break;
+        case 1:
+          creaLi(this, arrLi1);
+          break;
+        case 2:
+          creaLi(this, arrLi2);
+          break;
+        default:
+        }
+      };
+    });
+  };
+
+for(let i = 0; i < elements.length; i++) {
+  creaSub(i);
+};
+
+let toglisub = function removeElementsByClass(Cls){
+    const elements = document.getElementsByClassName(Cls);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    };
+}
 
 <script type="text/javascript" async >
     function genericSocialShare(url){

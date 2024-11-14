@@ -27,8 +27,7 @@ function toggle() {
 	  pendo.track("Toggle", {
 /*		  Type: "Changed status"
 	  });*/
-  }
-}*/
+
 
 
 //$('#exampleModal').on('shown.bs.modal', function () {

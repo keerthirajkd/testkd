@@ -12,7 +12,7 @@
 
         pendo.initialize({
             visitor: {
-                id:           'IT_Keerthiraj12345',
+                Vid:           'IT_Keerthiraj12345',
                 email:        "keerthi12345@testit.com",
                 full_name:    "Keerthiraj",
                 //width: JSON.stringify(window.innerWidth),
